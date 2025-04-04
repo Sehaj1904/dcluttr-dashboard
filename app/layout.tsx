@@ -11,8 +11,8 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  title: "BlinkIt Analytics",
-  description: "Analytics dashboard for multiple companies",
+  title: "dcluttr-dashboard",
+  description: "dcluttr-dashboard",
     generator: 'dcluttr'
 }
 
