@@ -1,8 +1,7 @@
 export const theme = {
   colors: {
-    // Main colors
-    primary: "#8A3FFC", // Purple color for primary elements
-    secondary: "#42BE65", // Green color for secondary elements
+    primary: "#2E7D32",
+    secondary: "#42BE65",
     background: {
       main: "#FFFFFF",
       light: "#F5F5F5",
@@ -11,11 +10,11 @@ export const theme = {
       quickCommerce: "#E8F2EF",
     },
     text: {
-      primary: "#161616", // Almost black for primary text
-      secondary: "#525252", // Medium gray for secondary text
-      muted: "#6F6F6F", // Lighter gray for less important text
-      inactive: "#8D8D8D", // Light gray for inactive items
-      quickCommerce: "#006D5B", // Teal color for Quick Commerce text
+      primary: "#161616",
+      secondary: "#525252",
+      muted: "#6F6F6F",
+      inactive: "#8D8D8D",
+      quickCommerce: "#006D5B",
     },
     border: {
       light: "#E0E0E0",
@@ -26,7 +25,7 @@ export const theme = {
       active: "#161616",
     },
     avatar: {
-      purple: "#8A3FFC",
+      purple: "#2E7D32",
       teal: "#55B7B2",
     },
     company: {
