@@ -1,19 +1,19 @@
 import type React from "react"
 import "./globals.css"
 import type { Metadata } from "next"
-import { Inter } from "next/font/google"
+import { IBM_Plex_Sans } from "next/font/google"
 
-const inter = Inter({
+const ibmPlexSans = IBM_Plex_Sans({
   subsets: ["latin"],
   display: "swap",
   weight: ["400", "500", "600", "700"],
-  variable: "--font-inter",
+  variable: "--font-ibm-plex-sans",
 })
 
 export const metadata: Metadata = {
-  title: "dcluttr-dashboard",
-  description: "dcluttr-dashboard",
-    generator: 'dcluttr'
+  title: "BlinkIt Analytics",
+  description: "Analytics dashboard for multiple companies",
+  generator: 'dcluttr'
 }
 
 export default function RootLayout({
@@ -22,8 +22,8 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className={inter.variable}>
-      <body className={inter.className}>{children}</body>
+    <html lang="en" className={ibmPlexSans.variable}>
+      <body className={`${ibmPlexSans.className} font-sans`}>{children}</body>
     </html>
   )
 }
