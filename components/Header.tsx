@@ -17,8 +17,8 @@ export default function Header() {
       </div>
       {/*logos blinkit zepto instamart */}
       <div className="px-6 py-4 rounded-[5px] border border-[#E0E0E0] flex">
-        <div className="flex space-x-2 rounded-[5px] border border-[#E0E0E0] flex-wrap flex-row">
-          <div className="py-2 px-4 bg-[#E8F5F0] rounded-[15px] flex items-center">
+        <div className="flex space-x-2 rounded-[15px] border border-[#E0E0E0] flex-wrap flex-row">
+          <div className="my-2 mx-2 py-2 px-3 bg-[#E8F5F0] rounded-[15px] flex items-center">
           <img src={'/blinkit.png?height=8&width=8'} className="w-8 h-8 mr-2 flex items-center justify-center rounded-[5px] bg-[#F8F3F0]" />
             <span className="text-[#006D5B] font-medium">Blinkit</span>
           </div>
@@ -35,4 +35,3 @@ export default function Header() {
     </div>
   )
 }
-
